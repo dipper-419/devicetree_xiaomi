@@ -517,6 +517,7 @@
 		pinctrl-names = "pmx_ts_active", "pmx_ts_suspend";
 		pinctrl-0 = <&ts_active>;
 		pinctrl-1 = <&ts_int_suspend &ts_reset_suspend>;
+		panel = <&dsi_ss_notch_fhd_ea8074_cmd>;
 		vdd-supply = <&disp_vddio_vreg>;
 		avdd-supply = <&pm8998_l28>;
 		fts,pwr-reg-name = "avdd";
