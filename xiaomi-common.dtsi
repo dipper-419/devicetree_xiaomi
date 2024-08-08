@@ -169,12 +169,14 @@
 	/delete-property/ qcom,usbc-analog-en2-gpio;
 };
 
+/*
 &wcd934x_cdc {
 	qcom,cdc-micbias1-mv = <2700>;
 	qcom,cdc-micbias2-mv = <1800>;
 	qcom,cdc-micbias3-mv = <2700>;
 	qcom,cdc-micbias4-mv = <2700>;
 };
+*/
 /* sdm845-audio-overlay.dtsi */
 
 /* sdm845-670-usb-common.dtsi */

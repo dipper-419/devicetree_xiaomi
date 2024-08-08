@@ -196,6 +196,7 @@
 		};
 	};
 };
+
 &dsi_dual_nt35597_video {
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
 	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
@@ -672,14 +673,6 @@
 };
 
 &pm8998_vadc {
-	pinctrl-names = "default";
-	pinctrl-0 = <&gpio8_adc_default>;
-	vph_pwr {
-		label = "vph_pwr";
-		reg = <ADC_VPH_PWR>;
-		qcom,pre-scaling = <1 1>;
-	};
-
 	vcoin {
 		label = "vcoin";
 		reg = <ADC_VCOIN>;
